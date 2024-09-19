@@ -1,0 +1,19 @@
+.titleBox {
+  max-width: 308px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.titleBoxtext {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #e0a449;
+}
+
+.titleBoxtitle {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}

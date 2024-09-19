@@ -1,0 +1,85 @@
+.artPage {
+  margin: 120px 0;
+}
+
+.artWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.artInfo {
+  display: grid;
+  max-width: 640px;
+  padding: 20px;
+}
+
+.artName {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.artAuthor {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #e0a449;
+}
+
+.artYear {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #393939;
+}
+
+.artOverviewBox {
+  margin-top: auto;
+}
+
+.artOverviewBox span {
+  color: #e0a449;
+}
+
+.artOverviewBox p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.artOverview {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.artBookmark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.artImageBox {
+  max-width: 497px;
+  max-height: 570px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  width: 100%;
+}
+
+.artImage {
+  width: 100%;
+  max-height: 570px;
+  display: block;
+  height: auto;
+}

@@ -1,0 +1,16 @@
+.Main {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.searchWrapper {
+  margin: 120px 0;
+}
+
+.stherWorksWrapper {
+  margin-bottom: 120px;
+}
+
+.otherWorksWrapper{
+  margin-bottom: 120px;
+}

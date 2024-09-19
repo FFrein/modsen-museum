@@ -1,0 +1,43 @@
+.header {
+  max-height: 127px;
+  background: linear-gradient(90deg, #343333, #484848, #282828);
+  color: white;
+}
+.headerContent {
+  max-width: 1280px;
+  display: flex;
+  height: 127px;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.navContainer {
+  padding-right: 20px;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (orientation: portrait) {
+  .burgerMenu {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .header {
+    height: 127px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+}

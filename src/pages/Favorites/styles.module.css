@@ -1,0 +1,32 @@
+.fav {
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+.titleWrapper {
+  display: flex;
+  padding-bottom: 72px;
+}
+
+.title {
+  margin: auto;
+
+  max-width: 700px;
+  font-family: Lexend Deca;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+  color: #393939;
+}
+
+.title span {
+  color: #f17900;
+}
+
+.favList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

@@ -1,0 +1,55 @@
+.burgerContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.burgerButton {
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ffffff;
+  position: relative;
+  z-index: 11;
+}
+
+.menu {
+  background: linear-gradient(180deg, #343333, #484848, #282828);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menuList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menuList li {
+  margin: 20px 0;
+}
+
+.menuList li a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menuList li a:hover {
+  color: #f39c12;
+}
